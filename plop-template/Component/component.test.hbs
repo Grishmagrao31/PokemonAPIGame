@@ -1,0 +1,9 @@
+import {{pascalCase name}} from './{{pascalCase name}}'
+
+it('fetchpokemon test', () => {
+     jest.setTimeout(30000);
+    const url = '';
+    return {{pascalCase name}}(url).then((json) => {
+        expect(json).not.toBeNull();
+    });
+});
