@@ -1,0 +1,42 @@
+p {
+    margin:0;
+    padding:10px;
+}
+.Card {
+    background-color: lightcoral;
+    border-radius: 50px;
+    padding: 10px;
+     margin: 10px;
+}
+.Card__img {
+    text-align: center;
+}
+.Card__types {
+    display: flex;
+    justify-content: center;
+}
+
+.Card__type{
+    padding: 5px 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    background: red;
+    color: #fff;
+}
+
+.Card__name {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.Card__info {
+    margin-left:10px;
+}
+
+.Card__data {
+    
+    padding: 15px;
+    font-weight: 800;
+}
+
