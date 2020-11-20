@@ -1,7 +1,8 @@
-import {fetchpokemons} from './api';
+import { fetchpokemons } from "./api";
 
- it('fetchpokemons test', () => {
-     return fetchpokemons().then ((json) => {
-         expect(json).not.toBeNull(); 
- });
- });
+it("fetchpokemon test", () => {
+  const url = "https://pokeapi.co/api/v2/pokemon/1";
+  return fetchpokemons(url).then((json) => {
+    expect(json).not.toBeNull();
+  });
+});

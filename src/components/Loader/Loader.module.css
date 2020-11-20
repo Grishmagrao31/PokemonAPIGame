@@ -1,0 +1,12 @@
+.Loader {
+    display: flex;
+    padding: 4px;
+}
+
+.spinner {
+  height:40px;
+  width:40px;
+  border-radius: 50%;
+  border:2px solid green;
+  border-top: 2px solid transparent;  
+}
