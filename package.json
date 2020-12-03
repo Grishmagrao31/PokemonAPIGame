@@ -20,26 +20,12 @@
     "typescript": "^4.0.5",
     "web-vitals": "^0.2.4"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test_no_watch && lint-staged",
-      "pre-push": "npm test",
-      "...": "..."
-    }
-  },
-  "lint-staged": {
-    "*(js|css)": [
-      "npm run format",
-      "prettier-write",
-      "git add",
-      "npm run lint-js"
-    ]
-  },
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test_no_watch": "react-scripts test --watchAll=false",
+    "test_no_watch": "react-scripts test",
     "eject": "react-scripts eject",
     "generate": "plop && pretty-quick",
     "format": "pretty-quick",
